@@ -5,7 +5,7 @@ const UserRoute = Router();
 /**
  * Routa de teste ela ira ser apagada depois!!!!
  */
- UserRoute.get('/user', (req,res)=>{
+ UserRoute.post('/user', (req,res)=>{
   ControllerUser.index(req,res);
 });
 
