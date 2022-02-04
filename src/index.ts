@@ -18,7 +18,7 @@ const app = express();
  * Usa o force: True , apenas no desenvolvimento!
  * =============== Sequlize Sync 
  */
-//Conection.sync({force:true});
+Conection.sync({force:true});
 /**
  * ============
  */
