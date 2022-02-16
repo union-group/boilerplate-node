@@ -2,9 +2,9 @@ require('dotenv/config')
 
 import express from 'express'
 
-import { router } from './Routes'
+import { router } from './routes'
 
-import './Database'
+import './database'
 
 export const app = express()
 const port = Number(process.env.PORT)
