@@ -1,4 +1,5 @@
 import { Request, Response } from 'express'
+
 import { UsersRepository } from '../../../repositories/UserRepositories/UserRepositories'
 import { CreateUserUseCase } from './CreateUserUseCase'
 

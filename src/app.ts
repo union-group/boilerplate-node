@@ -7,6 +7,7 @@ import { router } from './routes'
 import './database'
 
 export const app = express()
+
 const port = Number(process.env.PORT)
 
 app.use(express.json())
