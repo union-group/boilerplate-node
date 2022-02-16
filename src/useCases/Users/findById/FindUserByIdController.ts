@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 
-import { UsersRepository } from '../../../repositories/UserRepositories/UserRepositories'
+import { UsersRepository } from '../../../repositories/UsersRepositories/UserRepository'
 import { FindUserByIdUseCase } from './FindUserByIdUseCase'
 
 export class FindUserByIdController {

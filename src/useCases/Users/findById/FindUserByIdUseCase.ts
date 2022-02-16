@@ -1,4 +1,4 @@
-import { IUsersRepository } from '../../../repositories/UserRepositories/IUsersRepository'
+import { IUsersRepository } from '../../../repositories/UsersRepositories/IUsersRepository'
 
 export class FindUserByIdUseCase {
   constructor(private readonly usersRepository: IUsersRepository) {}
