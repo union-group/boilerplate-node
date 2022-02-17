@@ -5,9 +5,9 @@
   "username": "user",
   "password": "pass",
   "database": "db_name",
-  "migrations": ["./src/Database/Migrations/*.ts"],
-  "entities": ["./src/Entities/**/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "entities": ["./src/entities/**/*.ts"],
   "cli": {
-    "migrationsDir": "./src/Database/Migrations"
+    "migrationsDir": "./src/database/migrations"
   }
 }
