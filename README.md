@@ -32,7 +32,7 @@ Boilerplate utilizado pelos times de backend, durante os projetos desenvolvidos 
 ### Rodando o servidor de desenvolvimento
 1. Renomeie o arquivo `.env-example` para `.env`.
 2. Rode o comando `yarn dev`
-3. Acesse [http://localhost:500](http://localhost:5000)
+3. Acesse [http://localhost:5000](http://localhost:5000)
 
 ## Gerando arquivos
 Você pode utilizar o gerador para gerar a maioria dos arquivos de forma automatica.
