@@ -11,5 +11,5 @@ export class {{pascalCase name}}Repository implements I{{pascalCase name}}Reposi
     this.repository = getRepository({{pascalCase name}})
   }
 
-  async lorenIpsum({}: I{{pascalCase name}}DTO) {}
+  async lorenIpsum(name: string) {}
 }
